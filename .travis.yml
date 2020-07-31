@@ -1,0 +1,8 @@
+before_install:
+  - pod repo update
+
+osx_image: xcode10.1
+language: objective-c
+xcode_workspace: WebRTCSample.xcworkspace # path to your xcodeproj folder
+xcode_scheme: WebRTCSample
+xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone X
